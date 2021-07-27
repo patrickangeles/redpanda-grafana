@@ -19,3 +19,11 @@ To create a topic with 10 partitions and 3x replication:
 ```
 docker exec redpanda1 rpk create topic mytopic -p 10 -r 3
 ```
+
+## Cleanup
+
+To shut down (run this command from the same working directory as before):
+
+```
+docker compose down
+```
