@@ -17,7 +17,7 @@ To view your dashboard, go to http://localhost:3000/
 To create a topic with 10 partitions and 3x replication:
 
 ```
-docker exec redpanda1 rpk create topic mytopic -p 10 -r 3
+docker exec redpanda1 rpk topic create mytopic -p 10 -r 3
 ```
 
 ## Cleanup
